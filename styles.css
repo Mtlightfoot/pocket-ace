@@ -71,7 +71,8 @@ body {
 }
 
 .new-game-btn {
-    padding: 60px 100px;
+    height: 175px;
+    width: 350px;
     border: 5px solid #8B966F;
     color: #6E745E;
     font-size: 1em;
@@ -80,7 +81,8 @@ body {
 }
 
 .sub-btn {
-    padding: 60px 100px;
+    height: 150px;
+    width: 250px;
     border: 5px solid #8B966F;
     color: #6E745E;
     font-size: 1em;
@@ -93,6 +95,14 @@ body {
     background-color: #3A3E33;
     color: #8B966F;
     transition: 0.3s;
+}
+
+.new-game-btn:active,
+.sub-btn:active {
+    background-color: #C3CFA1;
+    box-shadow: 0 5px #6E745E;
+    transform: translateY(4px);
+    transition: 0.1s;
 }
 
 .floating {
